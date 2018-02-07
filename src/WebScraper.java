@@ -2,8 +2,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Scanner;
 
-
-
 public class WebScraper {
     /**
      * Retrieve contents from a URL and return them as a string.
@@ -24,7 +22,8 @@ public class WebScraper {
     }
 
     public static void main(String[] args) {
-        System.out.println("Here");
+       String urlString = urlToString("http://erdani.com/tdpl/hamlet.txt");
+       System.out.println(urlString);
     }
 }
 
